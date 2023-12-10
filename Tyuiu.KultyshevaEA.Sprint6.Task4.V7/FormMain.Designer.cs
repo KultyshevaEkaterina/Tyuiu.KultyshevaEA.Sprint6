@@ -33,6 +33,7 @@ namespace Tyuiu.KultyshevaEA.Sprint6.Task4.V7
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxTask_KEA = new System.Windows.Forms.GroupBox();
             this.textBoxTask_KEA = new System.Windows.Forms.TextBox();
             this.groupBoxVar_KEA = new System.Windows.Forms.GroupBox();
@@ -183,6 +184,7 @@ namespace Tyuiu.KultyshevaEA.Sprint6.Task4.V7
             // 
             // chartResult_KEA
             // 
+            this.chartResult_KEA.AccessibleName = "";
             this.chartResult_KEA.BorderlineColor = System.Drawing.Color.Black;
             chartArea1.Name = "ChartArea1";
             this.chartResult_KEA.ChartAreas.Add(chartArea1);
@@ -200,6 +202,10 @@ namespace Tyuiu.KultyshevaEA.Sprint6.Task4.V7
             this.chartResult_KEA.Size = new System.Drawing.Size(1003, 519);
             this.chartResult_KEA.TabIndex = 8;
             this.chartResult_KEA.Text = "chart1";
+            title1.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            title1.Name = "Title1";
+            title1.Text = "График функции";
+            this.chartResult_KEA.Titles.Add(title1);
             // 
             // FormMain
             // 
